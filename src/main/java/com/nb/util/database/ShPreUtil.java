@@ -1,4 +1,4 @@
-package com.nb.util;
+package com.nb.util.database;
 
 import android.app.Service;
 import android.content.Context;

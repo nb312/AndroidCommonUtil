@@ -1,4 +1,4 @@
-package com.nb.util;
+package com.nb.util.common;
 
 import android.util.Log;
 

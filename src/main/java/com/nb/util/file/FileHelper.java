@@ -1,4 +1,4 @@
-package com.nb.util;
+package com.nb.util.file;
 
 import java.io.File;
 import java.io.IOException;
