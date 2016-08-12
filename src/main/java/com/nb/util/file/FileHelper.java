@@ -6,15 +6,17 @@ import java.io.IOException;
 import android.os.Environment;
 
 public class FileHelper {
-	private static final String DEFAULT_FOLDER="Hearaudio";
+	private static final String DEFAULT_FOLDER="picaudio";
 	private static final String DEFAULT_FOLDER_MP3=DEFAULT_FOLDER+"/MP3";
 
 	private static boolean isSdCardExist(){
 		return Environment.getExternalStorageState().equals(android.os.Environment.MEDIA_MOUNTED);
 	}
+
 	private static String getSdDir(){
 		return Environment.getExternalStorageDirectory().getAbsolutePath();
-	}  
+	}
+
 	/**
 	 * @param folder
 	 * @param name
